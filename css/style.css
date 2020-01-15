@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+
+    margin: 0 auto;   
+}
+.first{
+    background-color: turquoise;
+    padding: 25px 0;
+}
+
+.nav .logo{
+    width: 35%;
+    float: left;
+}
+.nav ul{
+    width: 65%;
+    float: left;
+    list-style: none;
+}
+.nav ul li{
+    display: inline-block;
+    margin:10px 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.about{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+.about h1{
+    color: #fff;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color:orange;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    margin:10px 30px;
+    font-size: 22px;
+    box-shadow: 0px 2px #ed7d4b;
+}
+/* ====================================================SECOND================================================ */
+.second {
+    background-color:rgb(204, 52, 158);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     
+}
+
+.head{
+    
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.head h2{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+}
+.text{
+    display: block;
+    width: 500px;
+    text-align: center;  
+    margin-bottom: 30px;
+}
+.head span{
+    width: 80px;
+    height: 1.5px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+.second .flag{
+    display: flex;
+    color: #fff;
+}
+.second .flag div{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    
+    padding:20px ; 
+    margin-bottom: 30px;
+}
+
+.second .flag h3{
+    display: block;
+    margin-bottom:10px ;
+}
+
+.second .flag p{
+    text-align: center;
+}
+.second .flag img{
+    margin-bottom: 15px;
+}
+
+
+
+/*======================================================================================*/
+.ninth {
+    background-color:rgb(117, 70, 103);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     
+}
+
+.head{
+    
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.head h2{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+}
+.text{
+    display: block;
+    width: 500px;
+    text-align: center;  
+    margin-bottom: 30px;
+}
+.head span{
+    width: 80px;
+    height: 1.5px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+.ninth .flag{
+    display: flex;
+    color: #fff;
+}
+.ninth .flag div{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    
+    padding:20px ; 
+    margin-bottom: 30px;
+}
+
+.ninth .flag h3{
+    display: block;
+    margin-bottom:10px ;
+}
+
+.ninth .flag p{
+    text-align: center;
+}
+.ninth .flag img{
+    margin-bottom: 15px;
+}
+
+/* ==============================THIRD====================== */
+.third {
+    background-color:rgb(194, 181, 181);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     
+}
+
+.head{
+    
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.head h2{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+}
+.text{
+    display: block;
+    width: 500px;
+    text-align: center;  
+    margin-bottom: 30px;
+}
+.head span{
+    width: 80px;
+    height: 1.5px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+.third .flag{
+    display: flex;
+    color: grey;
+    font-weight: bold;
+}
+.third .flag div{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    
+    padding:20px ; 
+    margin-bottom: 30px;
+}
+
+.third .flag h3{
+    display: block;
+    margin-bottom:2px ;
+}
+
+#section-third{
+    margin-bottom: 15px;
+    color: rgb(233, 27, 181);
+}
+
+.third .flag p{
+    text-align: center;
+}
+.third .flag img{
+    margin-bottom: 15px;
+    width: 200px;
+}
+/* ==================================SIXTH================================ */
+.sixth {
+    background-color:rgb(112, 86, 161);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     
+}
+
+.sixth .head{
+    
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    color: #fff; 
+}
+.head h2{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+}
+.text{
+    display: block;
+     width: 500px;
+    text-align: center;  
+    margin-bottom: 30px;
+}
+.head span{
+    width: 80px;
+    height: 1.5px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+.sixth .flag{
+   width:100%;
+   float: left;
+   margin: 0 auto;
+}
+.sixth .flag {
+   display: flex;
+    
+    align-items: center;
+    
+    padding:20px ; 
+    margin-bottom: 30px;
+}
+
+.sixth .flag .left{
+    display: inline-block;
+    /* flex-direction: column; */
+}
+
+.sixth .flag .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth .flag .left div{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+.sixth .flag .right div{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.describe{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.sixth .flag h3{
+    display: block;
+    color: #fff;
+    
+}
+
+#section-sixth{
+    display: block;   
+    color: rgb(230, 233, 27);
+}
+
+.sixth .flag p{
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+    
+   
+}
+.sixth .flag img{
+    margin-right: 15px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
